@@ -20,7 +20,7 @@ const main = () => {
     typeDefs: typeDefs,
     resolvers: resolvers,
   });
-
+   console.log('git')
   app.use(
     "/graphql",
     graphqlHTTP({
